@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/description"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/songDetailsBtn"
+        android:layout_alignParentBottom="true"
+        android:text="@string/shop_songs" />
+</RelativeLayout>

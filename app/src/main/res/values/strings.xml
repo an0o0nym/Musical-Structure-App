@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="happy">Happy</string>
+    <string name="neutral">I don\'t care</string>
+    <string name="sad">Heartbroken</string>
+    <string name="shop">Buy more categories!</string>
+    <string name="happy_label">Listen to happy music</string>
+    <string name="neutral_label">Listen to neutral music</string>
+    <string name="sad_label">Listen to sad music</string>
+    <string name="shop_label">Discover songs&amp;categories</string>
+    <string name="shop_songs">Buy more songs of this band!</string>
+    <string name="song_details_label">Song details</string>
+    <string name="buy_more_songs">Buy more songs </string>
+    <string name="song_details">Song details</string>
+    <string name="more_details">More details</string>
+    <string name="buy_now">Buy now!</string>
+    <string name="buying_item">Buying song/category</string>
+    <string name="main_description">Here, people can choose a category which corresponds to their current mood -
+    which in result will bring them another activity with a list of songs appropriate for selected mood.
+    \n\n
+    Users can also go to the marketplace where they can discover even more categories!</string>
+    <string name="category_description">
+        Users of the app can browse list of several songs for that particular category
+        and they can choose to play them.
+        \n\n
+        I would probably go for the Android\'s MediaPlayer class to build fully functional activity.
+        Multiple of that class methods provide out of the box manipulation of the video/audio objects,
+        which could be useful in that kind of application.
+    </string>
+    <string name="song_details_description">
+        User could view here some of the song details as well as band info. I would probably use some
+        AsyncTask library features to get some interesting info about band. Maybe their tour dates etc.
+        \n\n
+        User would be also able to click on the button below and he would be takend to some sort
+        of band website, or song rating portal.
+    </string>
+    <string name="shop_description">
+        User would be presented with bunch of new features that he could buy to power up their app.
+        New songs in each categories, new categories with tons of new songs included in them etc.
+        \n\n
+        Before buying user could click on one of the buttons below to view more details about the songs.
+        \n\n
+        The most reasonable choice to execute the payment for these would probably be to use Android Pay API
+        on user\'s click on the button below. It would charge user\'s Wallet and unlock new song/category
+        in user app instance.
+    </string>
+</resources>
